@@ -58,6 +58,7 @@ body{
 }
 .whitestone{
     color: whitesmoke;
+    text-decoration: none;
 }
 .fontt{
     font-family: monospace;
@@ -94,4 +95,34 @@ body{
 }
 .info{
     font-size: x-large;
+}
+#body1{
+    background-color: black;
+    margin-top: 20%;
+    color: white;
+}
+.m20{
+    padding-top: 10%;
+    margin-bottom: 1em;
+}
+.f30{
+    font-size:xx-large;
+}
+.ita{
+    font: italic;
+}
+.ma{
+    margin-top: 2em;
+   margin-left: 3em;
+   margin-right: 3em;
+}
+#ma{
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-bottom: 2em;
+}
+.pb20{
+    margin-bottom: 100px;
+   
 }
