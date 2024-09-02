@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    text-align: center;
+    margin-top: 3px;
+}
+.reddish{
+  color:  #e92828;
+}
+.primaryhead{
+    font-weight: 500;
+    font-size: xx-large;
+}
+body{
+    background-color: #3b342e;
+}
+#rotation{
+    display: inline-block;
+    animation-name: rotatei;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+.border1{
+    border: 2px solid whitesmoke;
+}
+@keyframes rotatei {
+    
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.start{
+    padding-top: 1em;
+}
+.box1{
+    height: 20vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+}
+.box2{
+    height: 7vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 900;
+   
+}
+.whitestone{
+    color: whitesmoke;
+}
+.fontt{
+    font-family: monospace;
+}
+.m2{
+    margin-top: 0.7em;
+}
+.head3{
+    color: antiquewhite;
+}
+.head2{
+    margin-top: 1em;
+
+}
+.fontty{
+    font-family: 'Times New Roman', Times, serif;
+}
+.thebox{
+    height: 30vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(255, 255, 255);
+    overflow: scroll;
+    margin-top: 1em;
+}
+#border{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.whitesh{
+    color: rgb(148, 154, 160);
+    text-decoration: none;
+}
+.info{
+    font-size: x-large;
+}
