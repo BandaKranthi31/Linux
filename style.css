@@ -8,14 +8,14 @@
     margin-top: 3px;
 }
 .reddish{
-  color:  #e92828;
+  color:  #fa0e0e;
 }
 .primaryhead{
     font-weight: 500;
     font-size: xx-large;
 }
 body{
-    background-color: #3b342e;
+    background-color:whitesmoke;
 }
 #rotation{
     display: inline-block;
@@ -24,6 +24,7 @@ body{
     animation-timing-function: ease-in;
     animation-delay: 2s;
     animation-iteration-count:infinite;
+    color: rgb(17, 101, 17);
 }
 .border1{
     border: 2px solid whitesmoke;
@@ -57,7 +58,7 @@ body{
    
 }
 .whitestone{
-    color: whitesmoke;
+    color: #575858;
     text-decoration: none;
 }
 .fontt{
@@ -67,7 +68,7 @@ body{
     margin-top: 0.7em;
 }
 .head3{
-    color: antiquewhite;
+    color:#c0490d;
 }
 .head2{
     margin-top: 1em;
@@ -81,16 +82,17 @@ body{
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(15, 0, 0);
     overflow: scroll;
     margin-top: 1em;
+    border-radius: 8px;
 }
 #border{
-    border: 2px solid white;
+    
     border-radius: 5px;
 }
 .whitesh{
-    color: rgb(148, 154, 160);
+    color: #073465;
     text-decoration: none;
 }
 .info{
@@ -124,5 +126,14 @@ body{
 }
 .pb20{
     margin-bottom: 100px;
+    color: white;
    
 }
+.fontt m2 head3{
+ background-color: #a67122;
+}
+#greenish{
+    color :rgb(17, 101, 17);
+}
+
+
