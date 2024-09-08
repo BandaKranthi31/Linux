@@ -13,6 +13,12 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+@media (prefers-reduced-motion){
+    .hidden {
+        transition: none;
+    }
+}
 .animate2{
     opacity: 0;
     transform: translateX(-100%);
@@ -25,6 +31,31 @@
     transform: translateX(0);
 }
 
+
+.hidden3{
+    opacity: 0;
+    transform: translateZ(-100%);
+    transition: all 4s ease-out;
+}
+
+.show3{
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+
+.hidden3:nth-child(2){
+transition-delay: 200ms;
+}
+.hidden3:nth-child(3){
+    transition-delay: 300ms;
+}
+.hidden3:nth-child(4){
+    transition-delay: 400ms;
+}
+.hidden3:nth-child(5){
+    transition-delay: 450ms;
+}
 
 .center{
     text-align: center;
@@ -158,5 +189,4 @@
 #greenish{
     color :rgb(17, 101, 17);
 }
-
 
